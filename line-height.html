@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .green {
+  line-height: 1.9;
+  border: solid rgb(28, 31, 76);
+  border-width: 10px;
+}
+
+.red {
+  line-height: 1.5em;
+  border: solid rgb(102, 10, 10);
+  border-width: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.box {
+  width: 18em;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+}
+</style>
+<body>
+    <div class="box green">
+        <h1>Avoid unexpected results by using unitless line-height.</h1>
+        Length and percentage line-heights have poor inheritance behavior.
+      </div>
+      
+      <div class="box red">
+        <h1>Avoid unexpected results by using unitless line-height.</h1>
+        Length and percentage line-heights have poor inheritance behavior
+      </div>
+      
+</body>
+</html>
