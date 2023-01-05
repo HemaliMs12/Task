@@ -1,0 +1,23 @@
+div.ex1 {
+    background-color: rgb(79, 165, 194);
+    width: 70px;
+    overflow-x: scroll;
+  }
+  
+  div.ex2 {
+    background-color: rgb(79, 165, 194);;
+    width: 40px;
+    overflow-x: hidden;
+  }
+  
+  div.ex3 {
+    background-color:rgb(79, 165, 194);;
+    width: 40px;
+    overflow-x: auto;
+  }
+  
+  div.ex4 {
+    background-color:rgb(79, 165, 194);;
+    width: 40px;
+    overflow-x: visible;
+  }
