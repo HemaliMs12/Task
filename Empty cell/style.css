@@ -1,0 +1,15 @@
+.table_1 {
+    empty-cells: show;
+    
+  }
+  
+  .table_2 {
+    empty-cells: hide;
+   
+  }
+  
+  td,
+  th {
+    border: 5px solid gray;
+    padding: 0.5rem;
+  }
