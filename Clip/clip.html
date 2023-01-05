@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dotted-border {
+  border: dotted;
+  position: relative;
+  width: 390px;
+  height: 400px;
+}
+img
+{
+    height: 400px;
+    width: 100%;
+}
+#top-left,
+#middle,
+#bottom-right {
+  position: absolute;
+  top: 0;
+}
+
+#top-left {
+  left: 400px;
+  clip: rect(0, 130px, 90px, 0);
+}
+
+#middle {
+  left: 270px;
+  clip: rect(100px, 260px, 190px, 130px);
+}
+
+#bottom-right {
+  left: 140px;
+  clip: rect(200px, 390px, 290px, 260px);
+}
+    </style>
+</head>
+<body>
+    <p class="dotted-border">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0509/1704/8471/products/BlackForestCake_grande.jpg?v=1612521187"
+          title="Original graphic" />
+        <img
+          id="top-left"
+          src="https://cdn.shopify.com/s/files/1/0509/1704/8471/products/BlackForestCake_grande.jpg?v=1612521187"
+          title="Graphic clipped to upper left" />
+        <img
+          id="middle"
+          src="https://cdn.shopify.com/s/files/1/0509/1704/8471/products/BlackForestCake_grande.jpg?v=1612521187"
+          title="Graphic clipped towards middle" />
+        <img
+          id="bottom-right"
+          src="https://cdn.shopify.com/s/files/1/0509/1704/8471/products/BlackForestCake_grande.jpg?v=1612521187"
+          title="Graphic clipped to bottom right" />
+      </p>
+</body>
+</html>
