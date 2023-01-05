@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top caption {
+  caption-side: top;
+}
+
+.bottom caption {
+  caption-side: bottom;
+}
+
+table {
+  border: 1px solid red;
+}
+
+td {
+  border: 1px solid blue;
+}
+    </style>
+</head>
+<body>
+    <table class="top">
+        <caption>
+          Caption ABOVE the table
+        </caption>
+        <tr>
+          <td>Some data</td>
+          <td>Some more data</td>
+        </tr>
+      </table>
+      
+      <br />
+      
+      <table class="bottom">
+        <caption>
+          Caption BELOW the table
+        </caption>
+        <tr>
+          <td>Some data</td>
+          <td>Some more data</td>
+        </tr>
+      </table>
+</body>
+</html>
